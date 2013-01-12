@@ -6,6 +6,7 @@ module.exports =
     # Conference info
     conf:
       name: "Payphone Hack Day"
+      tagline: "Reinvent The Future of Payphones"
       date: "January 26 - 27"
       price: ""
       venue: "NYU ITP"

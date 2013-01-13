@@ -1,319 +1,74 @@
-<!doctype html>
-<html itemscope itemtype="http://schema.org/Event">
-<head>
+<!DOCTYPE html>
+<html>
 
-  <title itemprop="name">Payphone Hack Day</title>
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Conf-boilerplate : A kickstart to create websites for conference/events" />
 
-  <meta charset="utf-8">
-  <meta name="author" content="Payphone Hack Day">
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-  <!-- FACEBOOK -->
-  <meta property="fb:app_id" content="372862979453673">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="http://payphonehackday.com">
-  <meta property="og:title" content="Payphone Hack Day">
-  <meta property="og:description" content="">
-  <meta property="og:image" content="">
-  <!-- / FACEBOOK -->
+    <title>Conf-boilerplate</title>
+  </head>
 
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <body>
 
-  <!-- STYLES -->
-  <link rel="stylesheet" type="text/css" href="css/reset.css">
-  <link rel="stylesheet" type="text/css" href="css/base.css">
-  <link rel="stylesheet" type="text/css" href="css/theme.css">
-  <!-- / STYLES -->
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/octanebaby/conf-boilerplate">View on GitHub</a>
 
-</head>
-<body>
+          <h1 id="project_title">Conf-boilerplate</h1>
+          <h2 id="project_tagline">A kickstart to create websites for conference/events</h2>
 
-  <div class="global">
-
-    <!-- NAVIGATION -->
-<nav id="nav">
-  <ul class="wrapper">
-    
-      <li class="nav-item">
-        <a href="#about" title="About" class="nav-link">About</a>
-      </li>
-    
-      <li class="nav-item">
-        <a href="#location" title="Location" class="nav-link">Location</a>
-      </li>
-    
-      <li class="nav-item">
-        <a href="#schedule" title="Schedule" class="nav-link">Schedule</a>
-      </li>
-    
-      <li class="nav-item">
-        <a href="#partners" title="Partners" class="nav-link">Partners</a>
-      </li>
-    
-  </ul>
-</nav>
-
-<hr />
-
-    <a href="https://github.com/braziljs/conf-boilerplate" class="github-link">
-  <img src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png" alt="Fork me on GitHub">
-</a>
-
-<!-- HEADER -->
-<header class="header" style="background-image: url(https://dl.dropbox.com/u/17922559/phonebooth.png)">
-  <div class="wrapper">
-    <h1 class="logo-name">
-      <a class="logo-link" href="#" title="Payphone Hack Day" itemprop="name">Payphone Hack Day</a>
-    </h1>
-    <h2 class="tagline">January 26 - 27, NYU ITP, New York</h2>
-    <div class="call-action-area">
-      <p><a href="https://twitter.com/share" class="twitter-share-button" data-text="Reinvent payphones at Payphone Hack Day NYC" data-via="PayphoneHackDay" data-size="large" data-count="none" data-hashtags="payphonehackday">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
-      <a href="http://payphonehackday.eventbrite.com" class="call-action-link" title="Register now!">Register now!</a>
-    </div> 
-  </div>
-</header>
-<!--  / HEADER -->
-
-<hr />
-
-
-    <!-- CONTENT -->
-    <div class="content" id="content">
-      <div class="wrapper">
-        
-  <!-- ABOUT -->
-
-  <section class="about" id="about">
-    <h2 class="section-title">About</h2>
-<p itemprop="description">As a lead-up to <a href="http://reinventpayphones.splashthat.com" target="_blank"> NYC's Reinvent Payphone Design Challenge </a>, we are hosting Payphone Hack Day to build physical or virtual payphone prototypes. Designers, engineers, students -- bring yourself, your gear and your team, or form a team at the hack day itself.</p>
-
-<p>The <a href="http://www.nyc.gov/html/digital/html/rules/reinvent_payphones.html" target="_blank">rules</a> that apply to the City's Reinvent Payphones Design Challenge also apply here.</p>
-
-  </section>
-
-  <!-- / ABOUT -->
-
-  <!-- LOCATION -->
-
-  <section class="location" id="location">
-    <h2 class="section-title">Location</h2>
-
-<p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-  <span itemprop="streetAddress">721 Broadway, 4th Floor. </span>
-  <span itemprop="addressLocality">New York</span>,
-  <span itemprop="addressRegion"> New York</span>
-</p>
-
-<div id="map-canvas" class="location-area" data-address="721 Broadway, 4th Floor"></div>
-
-  </section>
-
-  <!-- / LOCATION -->
-
-  <!-- SCHEDULE -->
-
-  <section class="schedule" id="schedule">
-    <h2 class="section-title">Schedule</h2>
-<div class="schedule-tbl">
-  <table>
-    <thead>
-      <tr>
-        <th class="schedule-description"></th>
-        <th class="schedule-time"></th>
-        <th class="schedule-slot"></th>
-      </tr>
-    </thead>
-    <tbody>
-
-      
-        
-          <tr>
-            <td class="schedule-description">Saturday, Jan 26</td>
-            <td class="schedule-time">10:00am</td>
-            <td class="schedule-title">Doors Open / Check-In</td>
-            <td class="schedule-slot">
-          </tr>
-        
-      
-        
-          <tr>
-            <td class="schedule-description"></td>
-            <td class="schedule-time">10:45am</td>
-            <td class="schedule-title">Welcome Presentations from Organizers and Partners</td>
-            <td class="schedule-slot">
-          </tr>
-        
-      
-        
-          <tr>
-            <td class="schedule-description"></td>
-            <td class="schedule-time">11:00am</td>
-            <td class="schedule-title">Hacking Begins / API Workshops</td>
-            <td class="schedule-slot">
-          </tr>
-        
-      
-        
-          <tr>
-            <td class="schedule-description"></td>
-            <td class="schedule-time">9:00pm</td>
-            <td class="schedule-title">Doors Close</td>
-            <td class="schedule-slot">
-          </tr>
-        
-      
-        
-          <tr>
-            <td class="schedule-description">Sunday, Jan 27</td>
-            <td class="schedule-time">10:00am</td>
-            <td class="schedule-title">Doors Open</td>
-            <td class="schedule-slot">
-          </tr>
-        
-      
-        
-          <tr>
-            <td class="schedule-description"></td>
-            <td class="schedule-time">2:00pm</td>
-            <td class="schedule-title">Demos and Presentations</td>
-            <td class="schedule-slot">
-          </tr>
-        
-      
-        
-          <tr>
-            <td class="schedule-description"></td>
-            <td class="schedule-time">4:00pm</td>
-            <td class="schedule-title">Close</td>
-            <td class="schedule-slot">
-          </tr>
-        
-      
-
-    </tbody>
-  </table>
-</div>
-
-  </section>
-
-  <!-- / SCHEDULE -->
-
-  <!-- PARTNERS -->
-
-  <section class="partners" id="partners">
-    <h2 class="section-title">Partners</h2>
-<ul class="partners-list">
-
-
-  <li class="partner-item" itemscope itemtype="http://schema.org/Organization">
-    <a href="http://octopart.com" class="partner-logo partner-link" itemprop="url">
-      <img src="https://dl.dropbox.com/u/17922559/logo%20-%20octopart.png" alt="Octopart" class="photo" itemprop="image" />
-    </a>
-  </li>
-
-  <li class="partner-item" itemscope itemtype="http://schema.org/Organization">
-    <a href="http://www.tokbox.com" class="partner-logo partner-link" itemprop="url">
-      <img src="https://dl.dropbox.com/u/17922559/logo-tokbox.png" alt="TokBox" class="photo" itemprop="image" />
-    </a>
-  </li>
-
-  <li class="partner-item" itemscope itemtype="http://schema.org/Organization">
-    <a href="http://www.adafruit.com" class="partner-logo partner-link" itemprop="url">
-      <img src="https://dl.dropbox.com/u/17922559/logo%20adafruit.png" alt="Adafruit" class="photo" itemprop="image" />
-    </a>
-  </li>
-
-  <li class="partner-item" itemscope itemtype="http://schema.org/Organization">
-    <a href="http://www.twilio.com" class="partner-logo partner-link" itemprop="url">
-      <img src="https://dl.dropbox.com/u/17922559/logo%20twilio.png" alt="Twilio" class="photo" itemprop="image" />
-    </a>
-  </li>
-
-  <li class="partner-item" itemscope itemtype="http://schema.org/Organization">
-    <a href="http://www.mashery.com" class="partner-logo partner-link" itemprop="url">
-      <img src="https://dl.dropbox.com/u/17922559/logo-mashery.png" alt="Mashery" class="photo" itemprop="image" />
-    </a>
-  </li>
-
-  <li class="partner-item" itemscope itemtype="http://schema.org/Organization">
-    <a href="http://wwwwfoursquare.com" class="partner-logo partner-link" itemprop="url">
-      <img src="https://dl.dropbox.com/u/17922559/logo-4sq.png" alt="Foursquare" class="photo" itemprop="image" />
-    </a>
-  </li>
-
-  <li class="partner-item" itemscope itemtype="http://schema.org/Organization">
-    <a href="http://www.grandst.com" class="partner-logo partner-link" itemprop="url">
-      <img src="https://dl.dropbox.com/u/17922559/logo%20grand%20st.png" alt="Grand St" class="photo" itemprop="image" />
-    </a>
-  </li>
-
-  <li class="partner-item" itemscope itemtype="http://schema.org/Organization">
-    <a href="http://www.nyc.gov/digital" class="partner-logo partner-link" itemprop="url">
-      <img src="https://dl.dropbox.com/u/17922559/logo%20nyc.png" alt="NYC Digital" class="photo" itemprop="image" />
-    </a>
-  </li>
-
-  <li class="partner-item" itemscope itemtype="http://schema.org/Organization">
-    <a href="http://www.nyc.gov/doitt" class="partner-logo partner-link" itemprop="url">
-      <img src="https://dl.dropbox.com/u/17922559/log-doitt.png" alt="NYC DoITT" class="photo" itemprop="image" />
-    </a>
-  </li>
-
-  <li class="partner-item" itemscope itemtype="http://schema.org/Organization">
-    <a href="http://itp.nyu.edu" class="partner-logo partner-link" itemprop="url">
-      <img src="https://dl.dropbox.com/u/17922559/logo-itp.png" alt="NYU ITP" class="photo" itemprop="image" />
-    </a>
-  </li>
-
-
-  <li class="partner-item">
-    <a class="partner-logo partner-link partner-call" href="#"><img src="img/your-logo.jpg" alt="your logo" class="photo" /></a>
-  </li>
-
-</ul>
-
-  </section>
-
-  <!-- / PARTNERS -->
-
-      </div>
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/octanebaby/conf-boilerplate/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/octanebaby/conf-boilerplate/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
     </div>
-    <!-- / CONTENT -->
 
-    <hr />
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>Welcome to GitHub Pages.</h3>
 
-    <!-- FOOTER -->
-    <footer class="footer"></footer>
-    <!-- / FOOTER -->
+<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
 
-  </div>
+<pre><code>$ cd your_repo_root/repo_name
+$ git fetch origin
+$ git checkout gh-pages
+</code></pre>
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/jquery-1.8.3.min.js"><\/script>')</script>
-  <script src="js/main.js"></script>
+<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
 
-  
-  <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-  <script src="js/map.js"></script>
-  
+<h3>Designer Templates</h3>
 
-  <!-- GOOGLE ANALYTICS -->
-  <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', '']);
-      _gaq.push(['_trackPageview']);
+<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
 
-      (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-  </script>
-  <!-- /GOOGLE ANALYTICS -->
+<h3>Rather Drive Stick?</h3>
 
-</body>
+<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+
+<h3>Authors and Contributors</h3>
+
+<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+
+<h3>Support or Contact</h3>
+
+<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Conf-boilerplate maintained by <a href="https://github.com/octanebaby">octanebaby</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
 </html>

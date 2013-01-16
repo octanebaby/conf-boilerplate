@@ -28,9 +28,9 @@ module.exports =
     sections: [
       'about'
       'location'
-      #'speakers'
       'schedule'
-      #'sponsors'
+      'speakers' 
+     #'sponsors'
       'partners'
       #'contact'
     ]
@@ -47,6 +47,11 @@ module.exports =
 
     # The entire schedule
     schedule: [
+      name: "bla bla"
+      bio:"bla bla bla"
+      company: "bla bla"
+      twitter: "bla bla"
+      photo: "https://dl.dropbox.com/u/17922559/logo%20nytimes.png"
       presentation:
         description: "Saturday, Jan 26" 	      
         title: "Doors Open / Check-In"
@@ -114,6 +119,14 @@ module.exports =
       name: "Grand St"
       logo: "https://dl.dropbox.com/u/17922559/logo%20grand%20st.png"  
       url: "http://www.grandst.com"
+    ,
+      name: "NYTimes"
+      logo: "https://dl.dropbox.com/u/17922559/logo%20nytimes.png"
+      url: "http://developer.nytimes.com"
+    ,
+      name: "10gen"
+      logo: "https://dl.dropbox.com/u/17922559/logo-10gen.png"
+      url: "http://www.10gen.com"
     ,
       name: "NYC Digital"
       logo: "https://dl.dropbox.com/u/17922559/logo%20nyc.png"

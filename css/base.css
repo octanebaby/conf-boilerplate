@@ -99,7 +99,7 @@ nav {
    ========================================================================== */
 .speakers-item {
   position:relative;
-  min-height:180px;
+  min-height:140px;
   padding-left: 180px;
   margin-bottom:30px;
   border-bottom:1px dashed #e7e7e7;

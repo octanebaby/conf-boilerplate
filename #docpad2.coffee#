@@ -41,7 +41,7 @@ module.exports =
       location: "Location"
       speakers: "Speakers"
       schedule: "Schedule"
-      sponsors: "Sponsors"
+פרט      sponsors: "Sponsors"
       partners: "Partners"
       contact: "Contact"
 
@@ -51,7 +51,7 @@ module.exports =
       bio: "Mahaya, Uncommon Projects"
       photo: "https://dl.dropbox.com/u/17922559/tarikh.jpg"
       presentation:
-        title: "Tarikh Korula"
+        title: "Tarikh Korula""
         time: "Ringmaster"
     ,
       twitter: "Co-founders"

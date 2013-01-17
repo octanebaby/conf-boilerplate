@@ -50,6 +50,10 @@
       </li>
     
       <li class="nav-item">
+        <a href="#speakers" title="Guests" class="nav-link">Guests</a>
+      </li>
+    
+      <li class="nav-item">
         <a href="#partners" title="Partners" class="nav-link">Partners</a>
       </li>
     
@@ -57,6 +61,10 @@
 </nav>
 
 <hr />
+
+    <a href="https://github.com/braziljs/conf-boilerplate" class="github-link">
+  <img src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png" alt="Fork me on GitHub">
+</a>
 
 <!-- HEADER -->
 <header class="header" style="background-image: url(https://dl.dropbox.com/u/17922559/phonebooth.png)">
@@ -118,76 +126,70 @@
   <table>
     <thead>
       <tr>
-        <th class="schedule-description"></th>
         <th class="schedule-time"></th>
         <th class="schedule-slot"></th>
+        <th class="schedule-description"></th>
       </tr>
     </thead>
     <tbody>
 
       
         
-          <tr>
-            <td class="schedule-description">Saturday, Jan 26</td>
-            <td class="schedule-time">10:00am</td>
-            <td class="schedule-title">Doors Open / Check-In</td>
-            <td class="schedule-slot">
-          </tr>
-        
+          
       
         
-          <tr>
-            <td class="schedule-description"></td>
+          
+      
+        
+          
+      
+        
+          <tr class="schedule-other">
+            <td class="schedule-slot">Saturday, January 26</td>
             <td class="schedule-time">10:45am</td>
-            <td class="schedule-title">Welcome Presentations from Organizers and Partners</td>
-            <td class="schedule-slot">
-          </tr>
-        
+            <td class="schedule-description">Welcome Presentations from Organizers and Partners</td>          
+      </tr>
+      
       
         
-          <tr>
-            <td class="schedule-description"></td>
+          <tr class="schedule-other">
+            <td class="schedule-slot"></td>
             <td class="schedule-time">11:00am</td>
-            <td class="schedule-title">Hacking Begins / API Workshops</td>
-            <td class="schedule-slot">
-          </tr>
-        
+            <td class="schedule-description">Hacking Begins / API Workshops</td>          
+      </tr>
+      
       
         
-          <tr>
-            <td class="schedule-description"></td>
+          <tr class="schedule-other">
+            <td class="schedule-slot"></td>
             <td class="schedule-time">9:00pm</td>
-            <td class="schedule-title">Doors Close</td>
-            <td class="schedule-slot">
-          </tr>
-        
+            <td class="schedule-description">Doors Close</td>          
+      </tr>
+      
       
         
-          <tr>
-            <td class="schedule-description">Sunday, Jan 27</td>
+          <tr class="schedule-other">
+            <td class="schedule-slot">Sunday, January 27</td>
             <td class="schedule-time">10:00am</td>
-            <td class="schedule-title">Doors Open</td>
-            <td class="schedule-slot">
-          </tr>
-        
+            <td class="schedule-description">Doors Open</td>          
+      </tr>
+      
       
         
-          <tr>
-            <td class="schedule-description"></td>
+          <tr class="schedule-other">
+            <td class="schedule-slot"></td>
             <td class="schedule-time">2:00pm</td>
-            <td class="schedule-title">Demos and Presentations</td>
-            <td class="schedule-slot">
-          </tr>
-        
+            <td class="schedule-description">Demos and Presentations</td>          
+      </tr>
+      
       
         
-          <tr>
-            <td class="schedule-description"></td>
+          <tr class="schedule-other">
+            <td class="schedule-slot"></td>
             <td class="schedule-time">4:00pm</td>
-            <td class="schedule-title">Close</td>
-            <td class="schedule-slot">
-          </tr>
-        
+            <td class="schedule-description">Close</td>          
+      </tr>
+      
       
 
     </tbody>
@@ -197,6 +199,85 @@
   </section>
 
   <!-- / SCHEDULE -->
+
+  <!-- SPEAKERS -->
+
+  <section class="speakers" id="speakers">
+    <h2 class="section-title">Guests</h2>
+
+<ul class="speakers-list">
+
+  
+    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+      
+        <span class="speaker-photo"><img class="photo" src="https://dl.dropbox.com/u/17922559/tarikh.jpg" alt="" itemprop="image" /></span>
+      
+
+      <h3 class="speech-title">
+        
+          <span class="speech-time">Ringmaster</span>
+        
+          <span> Tarikh Korula</span>
+      </h3>
+
+      <h3 class="speakers-name"> <title="Twitter @Founder">Founder</h3>
+      <p class="speakers-bio">Mahaya, Uncommon Projects</p>
+    </li>
+  
+
+  
+    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+      
+        <span class="speaker-photo"><img class="photo" src="https://dl.dropbox.com/u/17922559/antenna.jpg" alt="" itemprop="image" /></span>
+      
+
+      <h3 class="speech-title">
+        
+          <span class="speech-time">Reviewer</span>
+        
+          <span> Masamichi Udagawa &amp; Sigi Moeslinger</span>
+      </h3>
+
+      <h3 class="speakers-name"> <title="Twitter @Co-founders">Co-founders</h3>
+      <p class="speakers-bio">Antenna Design</p>
+    </li>
+  
+
+  
+    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+      
+        <span class="speaker-photo"><img class="photo" src="https://dl.dropbox.com/u/17922559/brianjones.jpg" alt="" itemprop="image" /></span>
+      
+
+      <h3 class="speech-title">
+        
+          <span class="speech-time">Reviewer</span>
+        
+          <span> Brian Jones</span>
+      </h3>
+
+      <h3 class="speakers-name"> <title="Twitter @Director of R&amp;D">Director of R&amp;D</h3>
+      <p class="speakers-bio">Control Group</p>
+    </li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</ul>
+
+  </section>
+
+  <!-- / SPEAKERS -->
 
   <!-- PARTNERS -->
 
@@ -236,7 +317,7 @@
   </li>
 
   <li class="partner-item" itemscope itemtype="http://schema.org/Organization">
-    <a href="http://www.foursquare.com" class="partner-logo partner-link" itemprop="url">
+    <a href="http://wwwwfoursquare.com" class="partner-logo partner-link" itemprop="url">
       <img src="https://dl.dropbox.com/u/17922559/logo-4sq.png" alt="Foursquare" class="photo" itemprop="image" />
     </a>
   </li>
@@ -255,7 +336,7 @@
 
   <li class="partner-item" itemscope itemtype="http://schema.org/Organization">
     <a href="http://www.10gen.com" class="partner-logo partner-link" itemprop="url">
-      <img src="https://dl.dropbox.com/u/17922559/logo-10gen.png" alt="10Gen" class="photo" itemprop="image" />
+      <img src="https://dl.dropbox.com/u/17922559/logo-10gen.png" alt="10gen" class="photo" itemprop="image" />
     </a>
   </li>
 
@@ -278,9 +359,9 @@
   </li>
 
 
- <!--  <li class="partner-item">
+  <li class="partner-item">
     <a class="partner-logo partner-link partner-call" href="#"><img src="img/your-logo.jpg" alt="your logo" class="photo" /></a>
-  </li> -->
+  </li>
 
 </ul>
 

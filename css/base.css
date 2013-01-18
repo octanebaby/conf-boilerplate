@@ -32,10 +32,10 @@ p {
 }
 
 li {
-  list-style:bullet;
+  list-style:disc;
   font-size:1.6em;
-  line-height:1.6em;
-  margin-bottom: 1.4em;
+  margin-bottom: 1em;
+  margin-left:2em;
 }
 
 /* =============================================================================

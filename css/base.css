@@ -114,7 +114,6 @@ nav {
   padding-left: 180px;
   margin-bottom:30px;
   border-bottom:1px dashed #e7e7e7;
-  font-size:1.0em;
 }
 .speaker-photo {
   position:absolute;
@@ -126,7 +125,6 @@ nav {
 }
 .speech-title {
   padding-top:10px;
-  font-size:1.2em;
   margin-bottom:1em;
 }
 .speech-time {
@@ -134,8 +132,8 @@ nav {
   padding: 10px 15px;
   letter-spacing:-.03em;
 }
-.speakers-name{font-size:1.2em;}
-.speakers-item p {font-size:1em;}
+.speakers-name{font-size:1.4em;}
+.speakers-item p {font-size:1.2em;}
 
 /* =============================================================================
    SCHEDULE

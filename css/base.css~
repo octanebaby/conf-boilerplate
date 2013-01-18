@@ -126,7 +126,6 @@ nav {
 .speech-title {
   padding-top:10px;
   margin-bottom:1em;
-  font-size:1.4em;
 }
 .speech-time {
   font-size:18px;

@@ -50,6 +50,10 @@ nav {
 .nav-item {
   display: inline-block;
   margin-right:15px;
+  list-style:none;
+  font-size:10px;
+  margin-bottom:0;
+  margin-left:0;
 }
 .nav-link {font-size: 1.4em;}
 
